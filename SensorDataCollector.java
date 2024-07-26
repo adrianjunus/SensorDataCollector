@@ -9,7 +9,7 @@ public class SensorDataCollector {
 
     private static final String DB_URL = "jdbc:postgresql://localhost:5432/postgres";
     private static final String USER = "postgres";
-    private static final String PASS = "password123";
+    private static final String PASS = "XXX";
 
     public static void main(String[] args) {
         Random random = new Random();
