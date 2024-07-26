@@ -1,6 +1,6 @@
 # Sensor Data Collector
 
-Attempt to simulate sensor data (dis)continuously streaming to a postgressql database. This represents and edge device running independently from a central datastore and analytics platform.
+Attempt to simulate sensor data (dis)continuously streaming to a PostgreSql database. This represents and edge device running independently from a central datastore and analytics platform.
 
 ## Table of Contents
 - [Basic Run Steps](#basicrunsteps)
