@@ -8,7 +8,7 @@ public class DatabaseInfo {
 
     private static final String DB_URL = "jdbc:postgresql://localhost:5432/postgres";
     private static final String USER = "postgres";
-    private static final String PASS = "password123";
+    private static final String PASS = "XXX";
 
     public static void main(String[] args) {
         try (Connection conn = DriverManager.getConnection(DB_URL, USER, PASS)) {
