@@ -1,4 +1,4 @@
-# Running stuff
+# Sensor Data Collector
 
 Attempt to simulate sensor data (dis)continuously streaming to a postgressql database. This represents and edge device running independently from a central datastore and analytics platform.
 
