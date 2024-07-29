@@ -13,11 +13,13 @@ public class SensorDataCollector {
 
     public static void main(String[] args) {
         Random random = new Random();
+        int maxIterations = 5000; // Limit the number of iterations for testing
+        int count = 0;
 
         try (Connection conn = DriverManager.getConnection(DB_URL, USER, PASS)) {
             String insertQuery = "INSERT INTO telemetry_data (sensor_id, temperature, pressure, humidity) VALUES (?, ?, ?, ?)";
 
-            while (true) {
+            while (count < maxIterations) {
                 try (PreparedStatement pstmt = conn.prepareStatement(insertQuery)) {
                     String sensorId = UUID.randomUUID().toString();
                     double temperature = -20.0 + (50.0 - (-20.0)) * random.nextDouble();
@@ -32,7 +34,7 @@ public class SensorDataCollector {
                     pstmt.executeUpdate();
                     System.out.println("Inserted data: " + sensorId + ", " + temperature + ", " + pressure + ", " + humidity);
                 }
-
+                count++;
                 Thread.sleep(5000); // Collect data every 5 seconds
             }
         } catch (SQLException | InterruptedException e) {
