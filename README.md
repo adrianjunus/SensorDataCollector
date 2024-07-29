@@ -6,11 +6,12 @@ Attempt to simulate sensor data (dis)continuously streaming to a PostgreSql data
 - [Basic Run Steps](#basicrunsteps)
 
 ## Basic Run Steps
-1. Start up your postgres server (i need to find out how to get version control on the databases)
-2. Set up credentals in your local clonced version of main
-3. Compile
+1. Ensure PostgreSQL is installed. Eventually this will be a cloud hosted database.
+2. Execute Powershell... Must run from administrator mode. Eventually will have init script running only particular scripts with elevated priveleges 
+   ```powershell
+   .\run.ps1
+   ```
+   ...or Shell
    ```sh
-	javac -cp ".;lib/postgresql-42.7.3.jar" DatabaseInfo.java
-4. Run
-   ```sh
-	java -cp ".;lib/postgresql-42.7.3.jar" file
+   .\run.sh
+   ```
