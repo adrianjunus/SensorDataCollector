@@ -15,7 +15,7 @@ public class SensorDataCollector {
 
     public static void main(String[] args) {
         Random random = new Random();
-        int maxIterations = 5000; // Limit the number of iterations for testing
+        int maxIterations = 50; // Limit the number of iterations for testing
         int count = 0;
 
         try (Connection conn = DriverManager.getConnection(DB_URL, USER, PASS)) {
@@ -51,7 +51,7 @@ public class SensorDataCollector {
                     System.out.println("Inserted data: " + sensorId + ", " + temperature + ", " + pressure + ", " + humidity);
                 }
                 count++;
-                Thread.sleep(50); // Collect data every 5 seconds
+                Thread.sleep(500); // Collect data every half second
             }
         } catch (SQLException | InterruptedException e) {
             e.printStackTrace();
