@@ -7,11 +7,11 @@ Attempt to simulate sensor data (dis)continuously streaming to a PostgreSql data
 
 ## Basic Run Steps
 1. Ensure PostgreSQL is installed. Eventually this will be a cloud hosted database.
-2. Execute Powershell... Must run from administrator mode. Eventually will have init script running only particular scripts with elevated priveleges 
+2. Execute Powershell...
    ```powershell
-   .\run.ps1
+   .\run_SensorDataCollector.ps1
    ```
    ...or Shell
    ```sh
-   .\run.sh
+   .\run_SensorDataCollector.sh
    ```
