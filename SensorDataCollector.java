@@ -9,8 +9,8 @@ import java.util.UUID;
 
 public class SensorDataCollector {
 
-    private static final String DB_URL = "jdbc:postgresql://localhost:5432/postgres";
-    private static final String USER = "postgres";
+    private static final String DB_URL = "jdbc:postgresql://18.117.184.171:5432/postgres";
+    private static final String USER = "myprojectuser";
     private static final String PASS = "xxx";
 
     public static void main(String[] args) {
