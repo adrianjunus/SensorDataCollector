@@ -1,6 +1,6 @@
 # Sensor Data Collector
 
-Simulate sensor data (dis)continuously streaming from multiple edge devices, to a central cloud-hosted central PostgreSql database.
+Simulate sensor data (dis)continuously streaming from multiple edge devices, to a central cloud-hosted PostgreSql database.
 
 To feature...
 - Centralized analytical store using industry-standard data warehouse management 
