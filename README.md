@@ -2,10 +2,11 @@
 
 Simulate sensor data (dis)continuously streaming from multiple edge devices, to a central cloud-hosted PostgreSql database.
 
-To feature...
-- Centralized analytical store using industry-standard data warehouse management 
+Architecture strategy...
 - Containerized edge device deployment
 - Version-controlled IaC
+- Centralized analytical store using industry-standard data warehousing
+- Data Modeling power by dbt 
 - Live-stream analytics and dashboarding
 
 ## Table of Contents
