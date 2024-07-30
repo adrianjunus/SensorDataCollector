@@ -1,6 +1,6 @@
 # Sensor Data Collector
 
-Simulate edge IoT sensor data (dis)continuously streaming to a PostgreSql database.
+Simulate sensor data (dis)continuously streaming from multiple edge devices, to a central cloud-hosted central PostgreSql database.
 
 To feature...
 - Centralized analytical store using industry-standard data warehouse management 
