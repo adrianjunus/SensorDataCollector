@@ -1,6 +1,12 @@
 # Sensor Data Collector
 
-Attempt to simulate sensor data (dis)continuously streaming to a PostgreSql database. This represents an edge device running independently from a central datastore and analytics platform.
+Simulate sensor data (dis)continuously streaming to a PostgreSql database. This represents an edge device running independently from a central datastore and analytics platform.
+
+To feature...
+- Centralized analytical store using inudstry-standard data warehouse management 
+- Containerized edge device deployment
+- Version-controlled IaC
+- Live-stream analytics and dashboarding
 
 ## Table of Contents
 - [Basic Run Steps](#basicrunsteps)
