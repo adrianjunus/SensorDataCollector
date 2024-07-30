@@ -3,7 +3,7 @@
 Simulate sensor data (dis)continuously streaming to a PostgreSql database. This represents an edge device running independently from a central datastore and analytics platform.
 
 To feature...
-- Centralized analytical store using inudstry-standard data warehouse management 
+- Centralized analytical store using industry-standard data warehouse management 
 - Containerized edge device deployment
 - Version-controlled IaC
 - Live-stream analytics and dashboarding
